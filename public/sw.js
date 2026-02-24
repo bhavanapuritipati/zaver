@@ -1,4 +1,4 @@
-const CACHE_NAME = 'zaver-cache-v5';
+const CACHE_NAME = 'zaver-cache-v6';
 const urlsToCache = [
     '/',
     '/index.html',
@@ -23,7 +23,12 @@ self.addEventListener('install', event => {
     self.skipWaiting();
     event.waitUntil(
         caches.open(CACHE_NAME)
-            .then(cache => cache.addAll(urlsToCache))
+            .then(cache => {
+                // Log and continue even if some assets fail (helps during partial uploads)
+                return Promise.allSettled(urlsToCache.map(url =>
+                    cache.add(url).catch(err => console.warn('Failed to cache:', url, err))
+                ));
+            })
     );
 });
 
