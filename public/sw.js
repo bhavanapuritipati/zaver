@@ -1,4 +1,4 @@
-const CACHE_NAME = 'zaver-cache-v3';
+const CACHE_NAME = 'zaver-cache-v4';
 const urlsToCache = [
     '/',
     '/index.html',
@@ -19,10 +19,15 @@ const urlsToCache = [
 ];
 
 self.addEventListener('install', event => {
+    self.skipWaiting(); // Force active immediately
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then(cache => cache.addAll(urlsToCache))
     );
+});
+
+self.addEventListener('activate', event => {
+    event.waitUntil(clients.claim()); // Take control of all pages immediately
 });
 
 self.addEventListener('fetch', event => {
