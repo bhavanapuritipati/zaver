@@ -11,15 +11,42 @@
     "icons": [
         {
             "src": "/images/ring_diamond_solitaire.png",
-            "sizes": "512x512",
-            "type": "image/png",
+            "sizes": "640x640",
+            "type": "image/jpeg",
             "purpose": "any maskable"
         },
         {
             "src": "/images/ring_diamond_solitaire.png",
             "sizes": "192x192",
-            "type": "image/png",
+            "type": "image/jpeg",
             "purpose": "any maskable"
         }
+    ],
+    "shortcuts": [
+        {
+            "name": "Shop Collection",
+            "url": "/shop",
+            "icons": [
+                {
+                    "src": "/images/ring_emerald_halo.png",
+                    "sizes": "640x640"
+                }
+            ]
+        },
+        {
+            "name": "Your Cart",
+            "url": "/cart",
+            "icons": [
+                {
+                    "src": "/images/necklace_diamond.png",
+                    "sizes": "512x512"
+                }
+            ]
+        }
+    ],
+    "categories": [
+        "shopping",
+        "jewellery",
+        "lifestyle"
     ]
 }
