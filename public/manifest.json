@@ -1,14 +1,20 @@
 {
     "name": "Zaver Jewellery",
     "short_name": "Zaver",
-    "description": "Timeless Jewellery, Crafted for You. Shop rings, necklaces, and more.",
+    "description": "Premium jewellery collection. Rings, necklaces, earrings, and more.",
     "id": "/",
     "start_url": "/",
     "scope": "/",
     "display": "standalone",
+    "display_override": [
+        "standalone",
+        "window-controls-overlay"
+    ],
     "background_color": "#1a0a0e",
     "theme_color": "#BF3853",
     "orientation": "portrait",
+    "dir": "ltr",
+    "lang": "en",
     "icons": [
         {
             "src": "/images/icon-512.png",
@@ -33,6 +39,7 @@
         {
             "name": "Shop Collection",
             "url": "/shop",
+            "description": "Browse our latest ring and necklace collections",
             "icons": [
                 {
                     "src": "/images/shortcut-emerald.png",
@@ -42,8 +49,9 @@
             ]
         },
         {
-            "name": "Your Cart",
+            "name": "Shopping Cart",
             "url": "/cart",
+            "description": "View items in your cart",
             "icons": [
                 {
                     "src": "/images/shortcut-necklace.png",
@@ -59,13 +67,13 @@
             "sizes": "3456x1992",
             "type": "image/png",
             "form_factor": "wide",
-            "label": "Zaver Homepage"
+            "label": "Zaver Premium Experience"
         }
     ],
     "categories": [
         "shopping",
-        "jewellery",
         "lifestyle"
     ],
-    "lang": "en-IN"
+    "prefer_related_applications": false,
+    "related_applications": []
 }
