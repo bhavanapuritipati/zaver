@@ -68,6 +68,13 @@
             "type": "image/png",
             "form_factor": "wide",
             "label": "Zaver Premium Experience"
+        },
+        {
+            "src": "/images/screenshot-mobile.png",
+            "sizes": "1000x6978",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Zaver Mobile Experience"
         }
     ],
     "categories": [
