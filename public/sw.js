@@ -1,4 +1,4 @@
-const CACHE_NAME = 'zaver-cache-v1';
+const CACHE_NAME = 'zaver-cache-v3';
 const urlsToCache = [
     '/',
     '/index.html',
@@ -10,7 +10,12 @@ const urlsToCache = [
     '/images/ring_emerald_halo.png',
     '/images/necklace_diamond.png',
     '/images/necklace_pearl.png',
-    '/images/earring_diamond_drop.png'
+    '/images/earring_diamond_drop.png',
+    '/images/icon-512.png',
+    '/images/icon-192.png',
+    '/images/shortcut-necklace.png',
+    '/images/shortcut-emerald.png',
+    '/images/screenshot-1.png'
 ];
 
 self.addEventListener('install', event => {
