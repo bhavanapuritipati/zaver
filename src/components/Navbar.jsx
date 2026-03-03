@@ -51,7 +51,7 @@ export default function Navbar() {
                 {/* Logo */}
                 <Link to="/" className="navbar-logo">
                     <Gem size={20} className="logo-icon" />
-                    <span>ZAVER</span>
+                    <span>ZEVAR</span>
                 </Link>
 
                 {/* Desktop Nav */}

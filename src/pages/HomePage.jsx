@@ -122,7 +122,7 @@ export default function HomePage() {
             {/* Footer */}
             <footer className="footer">
                 <div className="container">
-                    <div className="footer-logo">ZAVER</div>
+                    <div className="footer-logo">ZEVAR</div>
                     <p className="footer-tagline">Timeless Jewellery, Crafted for You</p>
                     <div className="footer-links">
                         <a href="#">About Us</a>
@@ -130,7 +130,7 @@ export default function HomePage() {
                         <a href="#">Privacy Policy</a>
                         <a href="#">Return Policy</a>
                     </div>
-                    <p className="footer-copy">© 2025 Zaver Jewellery. All rights reserved.</p>
+                    <p className="footer-copy">© 2025 Zevar Jewellery. All rights reserved.</p>
                 </div>
             </footer>
         </div>
