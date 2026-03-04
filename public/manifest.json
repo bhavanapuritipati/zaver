@@ -1,6 +1,6 @@
 {
-    "name": "Zaver Jewellery",
-    "short_name": "Zaver",
+    "name": "Zevar Jewellery",
+    "short_name": "Zevar",
     "description": "Premium jewellery collection. Rings, necklaces, earrings, and more.",
     "id": "/",
     "start_url": "/",
@@ -67,14 +67,14 @@
             "sizes": "3456x1992",
             "type": "image/png",
             "form_factor": "wide",
-            "label": "Zaver Premium Experience"
+            "label": "Zevar Premium Experience"
         },
         {
             "src": "/images/screenshot-mobile.png",
             "sizes": "1000x6978",
             "type": "image/png",
             "form_factor": "narrow",
-            "label": "Zaver Mobile Experience"
+            "label": "Zevar Mobile Experience"
         }
     ],
     "categories": [
@@ -85,8 +85,8 @@
     "related_applications": [
         {
             "platform": "play",
-            "url": "https://play.google.com/store/apps/details?id=com.zaver.app",
-            "id": "com.zaver.app"
+            "url": "https://play.google.com/store/apps/details?id=com.zevar.app",
+            "id": "com.zevar.app"
         },
         {
             "platform": "windows",
@@ -96,10 +96,10 @@
     "iarc_rating_id": "e6bd45ce-706f-4dff-9b21-4d1fb2f6bd9b",
     "scope_extensions": [
         {
-            "origin": "zaver.vercel.app"
+            "origin": "zevar.vercel.app"
         },
         {
-            "origin": "*.zaver.vercel.app"
+            "origin": "*.zevar.vercel.app"
         }
     ],
     "file_handlers": [
@@ -120,7 +120,7 @@
     },
     "protocol_handlers": [
         {
-            "protocol": "web+zaver",
+            "protocol": "web+zevar",
             "url": "/?url=%s"
         }
     ],

@@ -7,7 +7,7 @@ import './CartPage.css'
 export default function CartPage() {
     const { items, updateQuantity, removeFromCart, total } = useCart()
 
-    const shipping = total > 5000 ? 0 : 199
+    const shipping = total > 499 ? 0 : 49
     const grandTotal = total + shipping
 
     if (items.length === 0) return (
@@ -82,7 +82,7 @@ export default function CartPage() {
                                 <span className={shipping === 0 ? 'free-tag' : ''}>{shipping === 0 ? 'FREE' : formatPrice(shipping)}</span>
                             </div>
                             {shipping > 0 && (
-                                <p className="shipping-note">Add {formatPrice(5000 - total)} more for free shipping</p>
+                                <p className="shipping-note">Add {formatPrice(499 - total)} more for free shipping</p>
                             )}
                             <div className="divider" />
                             <div className="summary-row total-row">

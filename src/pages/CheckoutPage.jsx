@@ -25,7 +25,7 @@ export default function CheckoutPage() {
     const [card, setCard] = useState({ number: '', expiry: '', cvv: '', holder: '' })
     const [upi, setUpi] = useState('')
 
-    const shipping = total > 5000 ? 0 : 199
+    const shipping = total > 499 ? 0 : 49
     const grandTotal = total + shipping
 
     const handleAddressSubmit = (e) => {
