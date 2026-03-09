@@ -20,6 +20,7 @@ export default function Navbar() {
         { to: '/shop?cat=rings', label: 'Rings' },
         { to: '/shop?cat=necklaces', label: 'Necklaces' },
         { to: '/shop?cat=earrings', label: 'Earrings' },
+        { to: '/reviews', label: 'Reviews' },
     ]
 
     // Check active state including query params

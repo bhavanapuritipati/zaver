@@ -9,6 +9,8 @@ import CartPage from './pages/CartPage'
 import CheckoutPage from './pages/CheckoutPage'
 import OrderSuccessPage from './pages/OrderSuccessPage'
 import WishlistPage from './pages/WishlistPage'
+import ReviewsPage from './pages/ReviewsPage'
+import WhatsAppWidget from './components/WhatsAppWidget'
 import { useCart } from './context/CartContext'
 import './index.css'
 
@@ -26,6 +28,7 @@ function AppInner() {
         <BrowserRouter>
             <Navbar />
             <ToastLayer />
+            <WhatsAppWidget />
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/shop" element={<ShopPage />} />
@@ -34,6 +37,7 @@ function AppInner() {
                 <Route path="/checkout" element={<CheckoutPage />} />
                 <Route path="/order-success" element={<OrderSuccessPage />} />
                 <Route path="/wishlist" element={<WishlistPage />} />
+                <Route path="/reviews" element={<ReviewsPage />} />
             </Routes>
         </BrowserRouter>
     )

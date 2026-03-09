@@ -5,10 +5,10 @@ import ProductCard from '../components/ProductCard'
 import './HomePage.css'
 
 const featuredCategories = [
-    { id: 'rings', label: 'Rings', emoji: '💍', img: '/images/ring_diamond_solitaire.png' },
-    { id: 'necklaces', label: 'Necklaces', emoji: '✨', img: '/images/necklace_diamond.png' },
-    { id: 'earrings', label: 'Earrings', emoji: '💎', img: '/images/earring_diamond_drop.png' },
-    { id: 'bracelets', label: 'Bracelets', emoji: '🌸', img: '/images/necklace_pearl.png' },
+    { id: 'rings', label: 'Rings', emoji: '💍', img: '/images/ring1.jpeg' },
+    { id: 'necklaces', label: 'Necklaces', emoji: '✨', img: '/images/necklace1.jpeg' },
+    { id: 'earrings', label: 'Earrings', emoji: '💎', img: '/images/earrings1.jpeg' },
+    { id: 'bracelets', label: 'Bracelets', emoji: '🌸', img: '/images/bracelets1.jpeg' },
 ]
 
 const perks = [
